@@ -13,6 +13,8 @@
 		AB8DF3B31BC727DC001E2D2B /* retroCalcul8r.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB8DF3B11BC727DC001E2D2B /* retroCalcul8r.xcdatamodeld */; };
 		AB8DF3B51BC727DC001E2D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8DF3B41BC727DC001E2D2B /* Assets.xcassets */; };
 		AB8DF3B81BC727DC001E2D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8DF3B61BC727DC001E2D2B /* LaunchScreen.storyboard */; };
+		AB8DF3C01BC7281E001E2D2B /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB8DF3BF1BC7281E001E2D2B /* btn.wav */; };
+		AB8DF3C21BC73AED001E2D2B /* Tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB8DF3C11BC73AED001E2D2B /* Tick.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AB8DF3B41BC727DC001E2D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8DF3B71BC727DC001E2D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB8DF3B91BC727DC001E2D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8DF3BF1BC7281E001E2D2B /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		AB8DF3C11BC73AED001E2D2B /* Tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tick.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		AB8DF3A91BC727DC001E2D2B /* retroCalcul8r */ = {
 			isa = PBXGroup;
 			children = (
+				AB8DF3BF1BC7281E001E2D2B /* btn.wav */,
+				AB8DF3C11BC73AED001E2D2B /* Tick.mp3 */,
 				AB8DF3AA1BC727DC001E2D2B /* AppDelegate.swift */,
 				AB8DF3AC1BC727DC001E2D2B /* ViewController.swift */,
 				AB8DF3AE1BC727DC001E2D2B /* Main.storyboard */,
@@ -126,7 +132,9 @@
 			files = (
 				AB8DF3B81BC727DC001E2D2B /* LaunchScreen.storyboard in Resources */,
 				AB8DF3B51BC727DC001E2D2B /* Assets.xcassets in Resources */,
+				AB8DF3C21BC73AED001E2D2B /* Tick.mp3 in Resources */,
 				AB8DF3B01BC727DC001E2D2B /* Main.storyboard in Resources */,
+				AB8DF3C01BC7281E001E2D2B /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
